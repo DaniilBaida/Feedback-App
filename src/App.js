@@ -9,7 +9,7 @@ function App() {
 
     const loading = true
 
-    if(loading) return <h1>Loading...</h1>
+    if(loading) return <h1>Loading....</h1>
 
     return (
     <div className='container'>
