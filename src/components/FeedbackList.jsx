@@ -20,7 +20,7 @@ function FeedbackList({ feedback, handleDelete }) {
               key={item.id}
               item={item}
               handleDelete={handleDelete}
-            ></FeedbackItem>
+            />
           </motion.div>
         ))}
       </AnimatePresence>
